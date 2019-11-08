@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HelloController {
 
+    //测试iss53修复
     @GetMapping("hello")
     public String hello(@RequestParam(name="name") String name, Model model){
 
